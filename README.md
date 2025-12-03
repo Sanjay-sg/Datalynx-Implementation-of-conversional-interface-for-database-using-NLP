@@ -1,1 +1,63 @@
 # Datalynx-Implementation-of-conversional-interface-for-database-using-NLP
+This project converts plain English questions into accurate SQL SELECT queries using a local AI engine, executes them on a SQLite student database, auto-fixes SQL errors with the model, and shows results in a Streamlit chat UI with a schema-viewer sidebar. Designed for non-technical users without SQL knowledge.
+
+## About
+This project is an intelligent database query assistant that enables users to fetch information from a structured database using simple English questions, without needing any SQL knowledge. The application uses a local large language model running on standard CPU hardware to translate natural language into accurate SQL SELECT queries. The generated SQL is executed securely on a lightweight embedded relational database containing student records. If the model produces an invalid query, the system sends the error and schema context back to the model to automatically correct and re-generate a working SQL statement, ensuring higher accuracy and reliability. The results are displayed in a conversational chat-style interface built with a Python-based UI framework, while a sidebar visually shows the database schema (tables and columns) for user clarity. The design focuses on simplicity, accuracy, and usability, making database access seamless for non-technical users and suitable for academic demos, presentations, and future enhancements.
+
+## Features
+<!--List the features of the project as shown below-->
+-Natural Language → SQL using local LLM
+-SQL auto-fix loop on database errors
+-SQLite database integration
+-Interactive chat UI via Streamlit
+-Schema viewer sidebar for DB structure visibility
+-Data access without SQL knowledge
+-No GPU, CPU-based model execution
+
+## Requirements
+<!--List the requirements of the project as shown below-->
+* Operating System: Requires a 64-bit OS such as Windows 10 or Ubuntu for compatibility with the local LLM runtime.
+* Development Environment: Python 3 (version 3.8 or later recommended) is required for backend logic and database interaction.
+* LLM Runtime: Ollama to download and run AI language models on CPU without GPU dependency.
+* SQL Generation Model: Mistral model for converting natural language into accurate SQL queries.
+* Database System: SQLite to store structured student data and execute generated SQL queries.
+* User Interface Framework: Streamlit for creating an interactive chat-based dashboard and schema viewer sidebar.
+* Data Processing Library: pandas for reading SQL results and displaying them in table format.
+* Version Control: Git for collaborative development and project source code management.
+* IDE: Use of Visual Studio Code as the main coding and debugging environment with terminal and version control integration.
+* Additional Dependencies: Installable packages include streamlit, pandas, and ollama for local natural language to SQL processing.
+
+## System Architecture
+<!--Embed the system architecture diagram as shown below-->
+
+![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+
+
+## Output
+
+<!--Embed the Output picture at respective places as shown below as shown below-->
+#### Output1 - User Interface 
+
+<img width="1862" height="977" alt="image" src="https://github.com/user-attachments/assets/f1ee3bc2-d980-4c86-b2a6-2ec81bd77d01" />
+
+
+#### Output2 - Project output 
+![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+
+Detection Accuracy: 96.7%
+Note: These metrics can be customized based on your actual performance evaluations.
+
+
+## Results and Impact
+<!--Give the results and impact as shown below-->
+The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+
+This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+
+## Articles published / References
+1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
+2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+
+
+
+
