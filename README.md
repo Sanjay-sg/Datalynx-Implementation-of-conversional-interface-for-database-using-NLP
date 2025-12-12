@@ -29,8 +29,7 @@ This project is an intelligent database query assistant that enables users to fe
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![WhatsApp Image 2025-12-12 at 21 18 02_2f51a521](https://github.com/user-attachments/assets/24c08134-09d8-4013-b077-f6292192976b)
 
 
 ## Output
