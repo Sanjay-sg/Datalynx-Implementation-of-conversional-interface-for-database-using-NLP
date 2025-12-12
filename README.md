@@ -48,15 +48,17 @@ This project is an intelligent database query assistant that enables users to fe
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Natural Language–Based Database Query System significantly improves data accessibility by allowing users to interact with databases without requiring SQL knowledge. By integrating a local large language model with a dynamic schema-aware SQL generator, the system enables intuitive, human-like interaction with structured data. Users can perform complex operations—including reading, updating, and modifying database structures—simply through natural language, making data management more efficient and user-friendly.
+
+This project demonstrates the potential of AI-driven automation in database systems, showcasing how natural language processing can simplify technical tasks traditionally reserved for trained professionals. The ability to automatically interpret user intent, generate precise SQL, and correct errors enhances reliability and usability.
+
+Serving as a foundation for intelligent database assistants, this project paves the way for advanced enterprise tools, multilingual support, voice-based interfaces, and scalable real-world data management solutions, contributing toward more accessible and intelligent human–computer interaction.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
+1. Y. Li and H. Jagadish, “Constructing SQL queries from natural language expressions,” in Proc. 19th IEEE Int. Conf. Data Eng. (ICDE), Bangalore, India, Mar. 2003, pp. 1–10.
+2. J. Zhang, R. Li, and M. Zhang, “NL2SQL: A generic natural language interface for querying relational databases,” in Proc. 33rd AAAI Conf. Artif. Intell., Honolulu, HI, USA, Jan. 2019, pp. 5515–5522.
+5. J. Wang, S. Xu, and Q. Chen, “Text-to-SQL generation using neural networks: A comprehensive review,” IEEE Access, vol. 8, pp. 43636–43652, Mar. 2020.
 
 
 
