@@ -44,8 +44,7 @@ This project is an intelligent database query assistant that enables users to fe
 #### Output2 - Project output 
 <img width="1892" height="934" alt="image" src="https://github.com/user-attachments/assets/387cca02-cc83-41a9-ab69-ea85ed3accf9" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+
 
 
 ## Results and Impact
